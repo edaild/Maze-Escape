@@ -48,7 +48,7 @@ public class Payer : MonoBehaviour
             print("함정 입니다.");
         }
 
-        if(collision.gameObject.tag =="Finish")
+        if (collision.gameObject.tag =="Finish")
         {
            gameObject.SetActive(false);
             print("Finish");
